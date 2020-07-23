@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-function check() {};
-window.addEventListener("load", check);
-=======
 function check() {
   const posts = document.getElementsByClassName("post");
   postsA = Array.from(posts);
@@ -41,4 +37,4 @@ function check() {
 }
 
 setInterval(check, 1000);
->>>>>>> Stashed changes
+
